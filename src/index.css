@@ -1,0 +1,18 @@
+/* importing inter font */
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+:root {
+  --primary: #075e54;
+  --blue: #128c7e;
+  --white: #ffffff;
+  --text-grey: #68686b;
+  --text-dark: #2e3249;
+  --text-black: #2e3249;
+  --text-light: #68686b;
+  --line-text-grey: #68686b;
+  --aqua-light: #ebf6f9;
+  --button-shadow: 0px 16px 40px rgba(38, 78, 255, 0.25);
+  --shadow-2: 0px 16px 60px rgba(109, 141, 173, 0.25);
+  --shadow-3: 0px 16px 40px rgba(109, 141, 173, 0.25);
+  --font-inter: "Inter", sans-serif;
+}
