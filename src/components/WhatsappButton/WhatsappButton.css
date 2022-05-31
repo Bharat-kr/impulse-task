@@ -1,0 +1,16 @@
+.whatasppButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--primary);
+  border-radius: 10px;
+  padding: 10px 20px;
+  border: none;
+  color: var(--white);
+  font-family: var(--font-roboto);
+  font-style: normal;
+  font-weight: 500;
+}
+.whatasppButton > img {
+  margin-right: 10px;
+}

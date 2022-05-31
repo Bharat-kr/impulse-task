@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.15);
+  padding: 30px 50px;
+}
+
+.nav > .name {
+  font-family: var(--font-montserrat);
+  color: var(--primary);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+}
+.nav > .name > sup {
+  font-family: var(--font-inter);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+}

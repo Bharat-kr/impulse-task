@@ -1,5 +1,10 @@
 /* importing inter font */
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+/* MOntserrat font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/* roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 :root {
   --primary: #075e54;
@@ -15,4 +20,13 @@
   --shadow-2: 0px 16px 60px rgba(109, 141, 173, 0.25);
   --shadow-3: 0px 16px 40px rgba(109, 141, 173, 0.25);
   --font-inter: "Inter", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-roboto:'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-inter);
 }
