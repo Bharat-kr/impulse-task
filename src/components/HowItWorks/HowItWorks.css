@@ -3,6 +3,15 @@
   flex-direction: column;
   align-items: center;
 }
+.container2 h1 {
+  font-family: var(--font-inter);
+  color: var(--text-dark);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 61px;
+  margin-bottom: 40px;
+}
 .container2 > div {
   display: flex;
   align-items: center;

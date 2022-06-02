@@ -1,0 +1,48 @@
+.container3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+.container3 h1 {
+  font-family: var(--font-inter);
+  color: var(--text-dark);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 61px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.container3 > div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.container3 > div > div {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: var(--shadow-2);
+}
+.container3 > div > div > img {
+  width: 200px;
+  margin-bottom: 10px;
+}
+.container3 > div > div > span {
+  font-family: var(--font-inter);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: var(--text-dark);
+}
