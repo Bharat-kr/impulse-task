@@ -8,7 +8,7 @@ import mentor from "../../assets/3d/mentor.png";
 const HowItWorks = () => {
   return (
     <div className="container2">
-      <h1>How it Works</h1>
+      <h1 className="headings">How it Works</h1>
       <div>
         <h1 className="number">1</h1>
         <div className="detail">

@@ -5,13 +5,13 @@
   align-items: center;
   padding: 50px;
 }
-.container3 h1 {
+.headings {
   font-family: var(--font-inter);
   color: var(--text-dark);
   font-style: normal;
   font-weight: 600;
-  font-size: 50px;
-  line-height: 61px;
+  font-size: 40px;
+  line-height: 52px;
   margin-top: 40px;
   margin-bottom: 40px;
 }

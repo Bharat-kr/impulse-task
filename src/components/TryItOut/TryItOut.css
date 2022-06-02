@@ -11,6 +11,9 @@
   font-weight: 500;
   border: 1px solid var(--primary);
 }
+.tryoutbutton:hover{
+  cursor: pointer;
+}
 
 .tryoutbutton > img {
   margin-right: 10px;

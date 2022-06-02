@@ -10,7 +10,7 @@ import accurate from "../../assets/3d/accurate.png";
 const Why = () => {
   return (
     <div className="container3">
-      <h1>Why Choose Us?</h1>
+      <h1 className="headings">Why Choose Us?</h1>
       <div>
         <div>
           <img src={think} />
