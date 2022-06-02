@@ -4,14 +4,17 @@
   justify-content: center;
   background: var(--primary);
   border-radius: 10px;
-  padding: 10px 70px;
+  padding: 15px 100px;
   color: var(--white);
-  font-family: var(--font-roboto);
   font-style: normal;
-  font-weight: 500;
   border: 1px solid var(--primary);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
 }
-.tryoutbutton:hover{
+.tryoutbutton:hover {
   cursor: pointer;
 }
 

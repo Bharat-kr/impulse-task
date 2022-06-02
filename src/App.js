@@ -1,4 +1,5 @@
 import "./App.css";
+import FAQ from "./components/FAQ/FAQ";
 import Footer from "./components/Footer/Footer";
 import HowItWorks from "./components/HowItWorks/HowItWorks";
 import Mentors from "./components/Mentors/Mentors";
@@ -25,6 +26,7 @@ function App() {
       <Review />
       <Uses />
       <Stats />
+      <FAQ />
       <Footer />
     </>
   );
