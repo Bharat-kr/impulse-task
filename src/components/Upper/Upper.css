@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  padding: 20px 50px 50px 50px;
+  align-items: center;
+}
+.container > div > h2 {
+  font-family: var(--font-inter);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+.container > div > h2 {
+  font-family: var(--font-inter);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+.container > div > h2:first-child {
+  color: var(--primary);
+}
+.container > div > h2:last-child {
+  color: var(--text-black);
+}
+.container > div > p {
+  font-family: var(--font-inter);
+  margin: 15px 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--text-dark);
+}
+.container > div > h3 {
+  font-family: var(--font-inter);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  color: var(--text-dark);
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+.topImage {
+  width: 400px;
+}

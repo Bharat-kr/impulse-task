@@ -1,5 +1,5 @@
 footer {
-  padding: 70px;
+  padding: 100px;
   padding-bottom: 10px;
   background-color: var(--aqua-light);
 }
@@ -31,15 +31,15 @@ footer .lists .footerList2 .listItem {
 }
 
 .footerList1 {
-  width: 30%;
+  width: 20%;
 }
 
 footer .copyright {
   font-family: var(--font-inter);
   font-style: normal;
   font-weight: 300;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 15px;
+  line-height: 18px;
   color: var(--text-dark);
   margin: 40px 0;
 }
