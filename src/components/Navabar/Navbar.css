@@ -6,7 +6,7 @@
   padding: 30px 50px;
 }
 
-.nav > .name {
+.nav .name {
   font-family: var(--font-montserrat);
   color: var(--primary);
   font-style: normal;
@@ -14,7 +14,7 @@
   font-size: 25px;
   line-height: 30px;
 }
-.nav > .name > sup {
+.nav .name sup {
   font-family: var(--font-inter);
   font-style: normal;
   font-weight: 500;

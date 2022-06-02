@@ -1,0 +1,50 @@
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container2 > div {
+  display: flex;
+  align-items: center;
+  width: 65%;
+}
+.container2 > div .number {
+  font-family: var(--font-inter);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 130px;
+  line-height: 162px;
+  margin-right: 20px;
+  color: var(--text-black);
+}
+.container2 > div img {
+  width: 200px;
+  height: 200px;
+}
+.container2 > div:nth-child(even) img {
+  width: 200px;
+  height: 200px;
+  margin-left: 40px;
+}
+.container2 > div:nth-child(odd) img {
+  width: 200px;
+  height: 200px;
+  margin-right: 40px;
+}
+.container2 > div .detail > h3 {
+  font-family: var(--font-inter);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 10px;
+  color: var(--text-dark);
+}
+.container2 > div .detail > span {
+  font-family: var(--font-inter);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--text-dark);
+}
