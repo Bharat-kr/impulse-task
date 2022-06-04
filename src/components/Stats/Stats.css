@@ -38,3 +38,13 @@
   text-align: center;
   color: var(--text-dark);
 }
+@media screen and (max-width: 760px) {
+  .container7 .stats {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 420px) {
+  .container7 .stats {
+    
+  }
+}

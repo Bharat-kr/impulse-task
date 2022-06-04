@@ -13,9 +13,7 @@ const HowItWorks = () => {
         <h1 className="number">1</h1>
         <div className="detail">
           <h3>Take photo of your questions</h3>
-          <span>
-            Simply type or take photo of the question you want to learn.
-          </span>
+          <p>Simply type or take photo of the question you want to learn.</p>
         </div>
         <img src={screenshot} alt="" />
       </div>
@@ -24,19 +22,17 @@ const HowItWorks = () => {
         <h1 className="number">2</h1>
         <div className="detail">
           <h3>Connect to a mentor</h3>
-          <span>
-            After submitting the question, connect to a Mentor instantly.
-          </span>
+          <p>After submitting the question, connect to a Mentor instantly.</p>
         </div>
       </div>
       <div>
         <h1 className="number">3</h1>
         <div className="detail">
           <h3>Learn over a call</h3>
-          <span>
+          <p>
             Clear all your concepts and doubts on a 1 on 1 call with our top
             mentors.
-          </span>
+          </p>
         </div>
         <img src={laptop} alt="" />
       </div>
@@ -45,7 +41,7 @@ const HowItWorks = () => {
         <h1 className="number">4</h1>
         <div className="detail">
           <h3>Get a photo of your solution</h3>
-          <span>You will recieve a written solution after the call.</span>
+          <p>You will recieve a written solution after the call.</p>
         </div>
       </div>
     </div>

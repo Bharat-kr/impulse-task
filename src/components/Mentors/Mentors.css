@@ -26,6 +26,7 @@
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 30px;
+  text-align: center;
   color: var(--text-dark);
 }
 .person p {
@@ -49,4 +50,14 @@
   border-radius: 25px;
   margin:20px 10px;
   border: none;
+}
+@media screen and (max-width: 760px) {
+  .container2 > div {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 560px) {
+  .person {
+    width: 100%;
+  }
 }

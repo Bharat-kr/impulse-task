@@ -5,11 +5,11 @@
   padding: 30px 100px;
 }
 .container8 > h1 {
-  margin-bottom: 100px;
+  margin-bottom: 6.25rem;
 }
 .container8 > div {
-  padding: 50px;
-  margin-bottom:50px;
+  padding: 3.125rem;
+  margin-bottom:3.125rem;
   box-shadow: var(--shadow-2);
   border-radius: 10px;
 }
@@ -36,4 +36,14 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
+}
+@media screen and (max-width: 760px) {
+  .container8{
+    padding:30px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .container7 .stats {
+    
+  }
 }

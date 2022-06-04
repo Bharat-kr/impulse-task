@@ -45,3 +45,15 @@
 .topImage {
   width: 400px;
 }
+
+@media screen and (max-width: 760px) {
+  .topImage {
+    width: 400px;
+    display: none;
+  }
+}
+@media screen and (max-width: 420px) {
+  .topImage {
+    /* width: 400px; */
+  }
+}

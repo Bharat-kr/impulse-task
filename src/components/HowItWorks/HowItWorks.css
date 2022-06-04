@@ -48,11 +48,34 @@
   margin-bottom: 10px;
   color: var(--text-dark);
 }
-.container2 > div .detail > span {
+.container2 > div .detail > p {
   font-family: var(--font-inter);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   color: var(--text-dark);
+}
+@media screen and (max-width: 600px) {
+  .container2 > div {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .container2 > div {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .container2 > div > img {
+    margin: 0;
+    padding: 0;
+  }
+  .container2 > div .detail > h3 {
+    text-align: center;
+  }
+  .container2 > div .detail > p {
+    text-align: center;
+    width: 100%;
+  }
 }
