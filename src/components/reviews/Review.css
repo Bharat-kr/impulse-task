@@ -13,6 +13,8 @@
 }
 .reviews {
   display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .reviews .review {
   display: flex;
@@ -25,6 +27,7 @@
   padding: 20px;
   padding-top: 60px;
   position: relative;
+  transition: transform 500ms ease-in-out 25ms;
 }
 .reviews .review img {
   position: absolute;

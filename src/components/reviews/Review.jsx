@@ -17,6 +17,7 @@ const images = {
 };
 
 const Review = () => {
+  const [current, setCurrent] = useState(0);
   const [items, setItems] = useState([
     {
       image: "3",
@@ -44,11 +45,24 @@ const Review = () => {
     },
   ]);
 
+  const rightClick = () => {
+    let el = document.querySelector("#reviews");
+
+    el.style.transform = `translateX(${current - 400}px)`;
+    setCurrent(current - 400);
+  };
+  const leftClick = () => {
+    let el = document.querySelector("#reviews");
+    console.dir(el);
+    el.style.transform = `translateX(${current + 400}px)`;
+    setCurrent(current + 400);
+  };
+
   return (
     <div className="container5">
       <h1 className="headings">What people are saying</h1>
       <div className="reviews_wrapper">
-        <div className="reviews">
+        <div className="reviews" id="reviews">
           {items.map((item, idx) => {
             return (
               <div className="review" key={idx}>
@@ -64,10 +78,18 @@ const Review = () => {
         </div>
       </div>
       <div className="buttons_wrapper">
-        <button className="pointers">
+        <button
+          className="pointers"
+          onClick={leftClick}
+          disabled={current === 0}
+        >
           <img src={left} alt="" />
         </button>
-        <button className="pointers">
+        <button
+          className="pointers"
+          onClick={rightClick}
+          disabled={current < -1000}
+        >
           <img src={right} alt="" />
         </button>
       </div>
