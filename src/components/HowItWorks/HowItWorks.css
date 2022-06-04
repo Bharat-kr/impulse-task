@@ -67,9 +67,11 @@
     align-items: center;
     width: 100%;
   }
-  .container2 > div > img {
-    margin: 0;
-    padding: 0;
+  .container2 > div:nth-child(even) img {
+    margin-left: 0px;
+  }
+  .container2 > div:nth-child(odd) img {
+    margin-right: 0px;
   }
   .container2 > div .detail > h3 {
     text-align: center;
