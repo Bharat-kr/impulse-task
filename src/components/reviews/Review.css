@@ -2,4 +2,55 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+}
+.reviews_wrapper {
+  width: 100%;
+  overflow-x: scroll;
+}
+.reviews_wrapper::-webkit-scrollbar {
+  display: none;
+}
+.reviews {
+  display: flex;
+}
+.reviews .review {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background: var(--white);
+  box-shadow: var(--shadow-2);
+  border-radius: 10px;
+  padding: 20px;
+}
+.reviews .review img {
+  width: 100px;
+}
+.reviews .review p {
+  font-family: var(--font-inter);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  width: 320px;
+  line-height: 22px;
+  color: var(--text-grey);
+}
+.reviews .review h3 {
+  font-family: var(--font-inter);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 15px;
+  margin-top: 30px;
+  color: var(--text-dark);
+}
+.reviews .review span {
+  font-family: var(--font-inter);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  margin: 0 15px;
+  line-height: 16px;
+  color: var(--text-light);
 }

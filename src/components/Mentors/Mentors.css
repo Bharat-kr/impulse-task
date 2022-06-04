@@ -42,10 +42,11 @@
   align-items: center;
 }
 .pointers {
-  width: 69px;
-  height: 41px;
+  width: 60px;
+  height: 35px;
   background: var(--white);
   box-shadow: var(--shadow-2);
   border-radius: 25px;
+  margin:20px 10px;
   border: none;
 }

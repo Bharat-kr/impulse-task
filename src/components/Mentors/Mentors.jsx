@@ -81,8 +81,8 @@ const Mentors = () => {
           renderArrow={myArrow}
           pagination={false}
         >
-          {items.map((item) => (
-            <div className="person" key={item.name}>
+          {items.map((item, idx) => (
+            <div className="person" key={idx}>
               <img src={images[item.image]} alt="" />
               <h3>{item.name}</h3>
               <p>{item.subject}</p>
