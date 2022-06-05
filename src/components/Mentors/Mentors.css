@@ -50,6 +50,7 @@
   border-radius: 25px;
   margin:20px 10px;
   border: none;
+  cursor: pointer;
 }
 @media screen and (max-width: 760px) {
   .container2 > div {

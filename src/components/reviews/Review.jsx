@@ -18,6 +18,7 @@ const images = {
 
 const Review = () => {
   const [current, setCurrent] = useState(0);
+  const [card, setCard] = useState(0);
   const [items, setItems] = useState([
     {
       image: "3",
@@ -44,18 +45,21 @@ const Review = () => {
       name: "Priya Banerjee",
     },
   ]);
+  const number = 6 - window.innerWidth / 400;
 
   const rightClick = () => {
     let el = document.querySelector("#reviews");
 
     el.style.transform = `translateX(${current - 400}px)`;
     setCurrent(current - 400);
+    setCard((prev) => prev + 1);
   };
   const leftClick = () => {
     let el = document.querySelector("#reviews");
     console.dir(el);
     el.style.transform = `translateX(${current + 400}px)`;
     setCurrent(current + 400);
+    setCard((prev) => prev - 1);
   };
 
   return (
@@ -78,17 +82,13 @@ const Review = () => {
         </div>
       </div>
       <div className="buttons_wrapper">
-        <button
-          className="pointers"
-          onClick={leftClick}
-          disabled={current === 0}
-        >
+        <button className="pointers" onClick={leftClick} disabled={card === 0}>
           <img src={left} alt="" />
         </button>
         <button
           className="pointers"
           onClick={rightClick}
-          disabled={current < -1000}
+          disabled={card >= number}
         >
           <img src={right} alt="" />
         </button>
